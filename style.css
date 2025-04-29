@@ -1,0 +1,1377 @@
+:root {
+    --color1: rgb(0, 231, 255);
+    --color2: rgb(255, 0, 231);
+    --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+    --charizard1: #fac;
+    --charizard2: #ddccaa;
+    --charizardfront: url(./cartas/muscospino/tile033.png);
+    --pika1: #54a29e;
+    --pika2: #a79d66;
+    --pikafront: url(./cartas/cocclino/tile021.png);
+    --eevee1: #efb2fb;
+    --eevee2: #acc6f8;
+    --eeveefront: url(./cartas/tile078.png);
+    --mewtwo1: #efb2fb;
+    --mewtwo2: #acc6f8;
+    --mewtwofront: url(./cartas/polifandro/tile82.png);
+
+    --pokemon05-1: #ff9c9c;
+    --pokemon05-2: #ffdfba;
+    --pokemon05front: url(./cartas/biondolina/tile007.png);
+  
+    --pokemon06-1: #baffc9;
+    --pokemon06-2: #bae1ff;
+    --pokemon06front: url(./cartas/biondolina/tile077.png);
+  
+    --pokemon07-1: #ffffba;
+    --pokemon07-2: #ffb3ba;
+    --pokemon07front: url(./cartas/biondolone/tile029.png);
+  
+    --pokemon08-1: #d5aaff;
+    --pokemon08-2: #ffb347;
+    --pokemon08front: url(./cartas/biondolone/tile074.png);
+  
+    --pokemon09-1: #ff9c9c;
+    --pokemon09-2: #ffdfba;
+    --pokemon09front: url(./cartas/bona/tile012.png);
+    
+    --pokemon10-1: #baffc9;
+    --pokemon10-2: #bae1ff;
+    --pokemon10front: url(./cartas/bona/tile025.png);
+
+    --pokemon11-1: #ffffba;
+    --pokemon11-2: #ffb3ba;
+    --pokemon11front: url(./cartas/bona/tile024.png);
+
+    --pokemon12-1: #d5aaff;
+    --pokemon12-2: #ffb347;
+    --pokemon12front: url(./cartas/bona/tile071.png);
+
+    --pokemon13-1: #ff9c9c;
+    --pokemon13-2: #ffdfba;
+    --pokemon13front: url(./cartas/cappello_ingrugnio/tile001.png);
+
+    --pokemon14-1: #baffc9;
+    --pokemon14-2: #bae1ff;
+    --pokemon14front: url(./cartas/cappello_ingrugnio/tile002.png);
+
+    --pokemon15-1: #ffffba;
+    --pokemon15-2: #ffb3ba;
+    --pokemon15front: url(./cartas/cappello_ingrugnio/tile003.png);
+
+    --pokemon16-1: #d5aaff;
+    --pokemon16-2: #ffb347;
+    --pokemon16front: url(./cartas/cappello_ingrugnio/tile010.png);
+
+    --pokemon17-1: #ff9c9c;
+    --pokemon17-2: #ffdfba;
+    --pokemon17front: url(./cartas/castagmafuoco/tile34.png);
+
+    --pokemon18-1: #baffc9;
+    --pokemon18-2: #bae1ff;
+    --pokemon18front: url(./cartas/castagmafuoco/title031.png);
+
+    --pokemon19-1: #ffffba;
+    --pokemon19-2: #ffb3ba;
+    --pokemon19front: url(./cartas/tile037.png);
+
+    --pokemon20-1: #d5aaff;
+    --pokemon20-2: #ffb347;
+    --pokemon20front: url(./cartas/tile041.png);
+
+    --pokemon21-1: #ff9c9c;
+    --pokemon21-2: #ffdfba;
+    --pokemon21front: url(./cartas/cocclino/tile011.png);
+
+    --pokemon22-1: #baffc9;
+    --pokemon22-2: #bae1ff;
+    --pokemon22front: url(./cartas/cocclino/tile019.png);
+
+    --pokemon23-1: #ffffba;
+    --pokemon23-2: #ffb3ba;
+    --pokemon23front: url(./cartas/cocclino/tile021.png);
+
+    --pokemon24-1: #d5aaff;
+    --pokemon24-2: #ffb347;
+    --pokemon24front: url(./cartas/cocclino/tile070.png);
+
+    --pokemon25-1: #ff9c9c;
+    --pokemon25-2: #ffdfba;
+    --pokemon25front: url(./cartas/cocomerocannibale/tile1.png);
+
+    --pokemon26-1: #baffc9;
+    --pokemon26-2: #bae1ff;
+    --pokemon26front: url(./cartas/cocomerocannibale/tile2.png);
+
+    --pokemon27-1: #ffffba;
+    --pokemon27-2: #ffb3ba;
+    --pokemon27front: url(./cartas/muscospino/tile033.png);
+
+    --pokemon28-1: #d5aaff;
+    --pokemon28-2: #ffb347;
+    --pokemon28front: url(./cartas/muscospino/tile036.png);
+
+    --pokemon29-1: #ff9c9c;
+    --pokemon29-2: #ffdfba;
+    --pokemon29front: url(./cartas/godurioso/tile013.png);
+
+    --pokemon30-1: #baffc9;
+    --pokemon30-2: #bae1ff;
+    --pokemon30front: url(./cartas/godurioso/tile022.png);
+
+    --pokemon31-1: #ffffba;
+    --pokemon31-2: #ffb3ba;
+    --pokemon31front: url(./cartas/godurioso/tile072.png);
+
+    --pokemon32-1: #d5aaff;
+    --pokemon32-2: #ffb347;
+    --pokemon32front: url(./cartas/velseca/tile016.png);
+
+    --pokemon33-1: #ff9c9c;
+    --pokemon33-2: #ffdfba;
+    --pokemon33front: url(./cartas/velseca/tile026.png);
+
+    --pokemon34-1: #baffc9;
+    --pokemon34-2: #bae1ff;
+    --pokemon34front: url(./cartas/velseca/tile075.png);
+
+    --pokemon35-1: #ffffba;
+    --pokemon35-2: #ffb3ba;
+    --pokemon35front: url(./cartas/tile078.png);
+
+    --pokemon36-1: #d5aaff;
+    --pokemon36-2: #ffb347;
+    --pokemon36front: url(./cartas/tile030.png);
+
+    --pokemon37-1: #ff9c9c;
+    --pokemon37-2: #ffdfba;
+    --pokemon37front: url(./cartas/grassone/tile003.png);
+
+    --pokemon38-1: #baffc9;
+    --pokemon38-2: #bae1ff;
+    --pokemon38front: url(./cartas/grassone/tile073.png);
+
+    --pokemon39-1: #ffffba;
+    --pokemon39-2: #ffb3ba;
+    --pokemon39front: url(./cartas/tile040.png);
+
+    --pokemon40-1: #d5aaff;
+    --pokemon40-2: #ffb347;
+    --pokemon40front: url(./cartas/tile81.png);
+
+    --pokemon41-1: #ff9c9c;
+    --pokemon41-2: #ffdfba;
+    --pokemon41front: url(./cartas/polifandro/tile000.png);
+
+    --pokemon42-1: #baffc9;
+    --pokemon42-2: #bae1ff;
+    --pokemon42front: url(./cartas/polifandro/tile82.png);
+
+    --pokemon43-1: #ffffba;
+    --pokemon43-2: #ffb3ba;
+    --pokemon43front: url(./cartas/tile042.png);
+
+    --pokemon44-1: #d5aaff;
+    --pokemon44-2: #ffb347;
+    --pokemon44front: url(./cartas/tile038.png);
+
+    --pokemon45-1: #ff9c9c;
+    --pokemon45-2: #ffdfba;
+    --pokemon45front: url(./cartas/angulla_rastafariana/tile1.png);
+
+    --pokemon46-1: #baffc9;
+    --pokemon46-2: #bae1ff;
+    --pokemon46front: url(./cartas/angulla_rastafariana/tile2.png);
+
+    --pokemon47-1: #ffffba;
+    --pokemon47-2: #ffb3ba;
+    --pokemon47front: url(./cartas/angulla_rastafariana/tile3.png);
+
+    --pokemon48-1: #d5aaff;
+    --pokemon48-2: #ffb347;
+    --pokemon48front: url(./cartas/angulla_rastafariana/tile4.png);
+
+    --pokemon49-1: #ff9c9c;
+    --pokemon49-2: #ffdfba;
+    --pokemon49front: url(./cartas/tagliere_sentimentale/tile001.png);
+
+    --pokemon50-1: #baffc9;
+    --pokemon50-2: #bae1ff;
+    --pokemon50front: url(./cartas/tagliere_sentimentale/tile002.png);
+
+    --pokemon51-1: #ffffba;
+    --pokemon51-2: #ffb3ba;
+    --pokemon51front: url(./cartas/zizzo/tile017.png);
+
+    --pokemon52-1: #d5aaff;
+    --pokemon52-2: #ffb347;
+    --pokemon52front: url(./cartas/zizzo/tile076.png);
+
+    --pokemon53-1: #ff9c9c;
+    --pokemon53-2: #ffdfba;
+    --pokemon53front: url(./cartas/tre_marie/tile049.png);
+
+    --pokemon54-1: #baffc9;
+    --pokemon54-2: #bae1ff;
+    --pokemon54front: url(./cartas/tre_marie/tile008.png);
+
+    --pokemon55-1: #ffffba;
+    --pokemon55-2: #ffb3ba;
+    --pokemon55front: url(./cartas/tre_marie/tile009.png);
+
+    --pokemon56-1: #d5aaff;
+    --pokemon56-2: #ffb347;
+    --pokemon56front: url(./cartas/tre_marie/tile84.png);
+
+    --pokemon57-1: #ff9c9c;
+    --pokemon57-2: #ffdfba;
+    --pokemon57front: url(./cartas/bona/tile057.png);
+
+    --pokemon58-1: #baffc9;
+    --pokemon58-2: #bae1ff;
+    --pokemon58front: url(./cartas/bona/tile058.png);
+
+    --pokemon59-1: #ffffba;
+    --pokemon59-2: #ffb3ba;
+    --pokemon59front: url(./cartas/bona/tile059.png);
+
+    --pokemon60-1: #d5aaff;
+    --pokemon60-2: #ffb347;
+    --pokemon60front: url(./cartas/bona/tile060.png);
+
+    --pokemon61-1: #ff9c9c;
+    --pokemon61-2: #ffdfba;
+    --pokemon61front: url(./cartas/biondolina/tile061.png);
+
+    --pokemon62-1: #baffc9;
+    --pokemon62-2: #bae1ff;
+    --pokemon62front: url(./cartas/biondolina/tile062.png);
+
+    --pokemon63-1: #ffffba;
+    --pokemon63-2: #ffb3ba;
+    --pokemon63front: url(./cartas/biondolone/tile063.png);
+
+    --pokemon64-1: #d5aaff;
+    --pokemon64-2: #ffb347;
+    --pokemon64front: url(./cartas/biondolone/tile064.png);
+
+    --pokemon65-1: #ff9c9c;
+    --pokemon65-2: #ffdfba;
+    --pokemon65front: url(./cartas/bona/tile065.png);
+
+  }
+  
+  
+  
+  .card {
+  
+    width: 71.5vw;
+    height: 100vw;
+       width: clamp(200px, 61vh, 18vw);
+       height: clamp(280px, 85vh, 25.2vw);
+    @media screen and (min-width: 600px) {
+       width: 61vh;
+       height: 85vh;
+       max-width: 500px;
+       max-height: 700px;
+      width: clamp(12.9vw, 61vh, 18vw);
+      height: clamp(18vw, 85vh, 25.2vw);
+    }
+    
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    overflow: hidden;
+    z-index: 10;
+    touch-action: none;
+    isolation: isolate;
+    
+    border-radius: 5% / 3.5%;
+    box-shadow: 
+      -5px -5px 5px -5px var(--color1), 
+      5px 5px 5px -5px var(--color2), 
+      -7px -7px 10px -5px transparent, 
+      7px 7px 10px -5px transparent, 
+      0 0 5px 0px rgba(255,255,255,0),
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    
+    transition: transform 0.5s ease, box-shadow 0.2s ease;
+    will-change: transform, filter;
+    
+    background-color: #040712;
+    background-image: var(--front);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transform-origin: center;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 
+      -20px -20px 30px -25px var(--color1), 
+      20px 20px 30px -25px var(--color2), 
+      -7px -7px 10px -5px var(--color1), 
+      7px 7px 10px -5px var(--color2), 
+      0 0 13px 4px rgba(255,255,255,0.3),
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card.charizard {
+    --color1: var(--charizard1);
+    --color2: var(--charizard2);
+    --front: var(--charizardfront);
+  }
+  .card.pika {
+    --color1: var(--pika1);
+    --color2: var(--pika2);
+    --front: var(--pikafront);
+  }
+  .card.mewtwo {
+    --color1: var(--mewtwo1);
+    --color2: var(--mewtwo2);
+    --front: var(--mewtwofront);
+  }
+  .card.eevee {
+    --color1: #ec9bb6;
+    --color2: #ccac6f;
+    --color3: #69e4a5;
+    --color4: #8ec5d6;
+    --color5: #b98cce;
+    --front: var(--eeveefront);
+  }
+  .card.pokemon05 {
+    --color1: var(--pokemon05-1);
+    --color2: var(--pokemon05-2);
+    --front: var(--pokemon05front);
+  }
+  
+  .card.pokemon06 {
+    --color1: var(--pokemon06-1);
+    --color2: var(--pokemon06-2);
+    --front: var(--pokemon06front);
+  }
+  
+  .card.pokemon07 {
+    --color1: var(--pokemon07-1);
+    --color2: var(--pokemon07-2);
+    --front: var(--pokemon07front);
+  }
+  
+  .card.pokemon08 {
+    --color1: var(--pokemon08-1);
+    --color2: var(--pokemon08-2);
+    --front: var(--pokemon08front);
+  }
+  .card.pokemon09 {
+    --color1: var(--pokemon09-1);
+    --color2: var(--pokemon09-2);
+    --front: var(--pokemon09front);
+  }
+  .card.pokemon10 {
+    --color1: var(--pokemon10-1);
+    --color2: var(--pokemon10-2);
+    --front: var(--pokemon10front);
+  }
+  .card.pokemon11 {
+    --color1: var(--pokemon11-1);
+    --color2: var(--pokemon11-2);
+    --front: var(--pokemon11front);
+  }
+  .card.pokemon12 {
+    --color1: var(--pokemon12-1);
+    --color2: var(--pokemon12-2);
+    --front: var(--pokemon12front);
+  }
+  .card.pokemon13 {
+    --color1: var(--pokemon13-1);
+    --color2: var(--pokemon13-2);
+    --front: var(--pokemon13front);
+  }
+  
+  .card.pokemon14 {
+    --color1: var(--pokemon14-1);
+    --color2: var(--pokemon14-2);
+    --front: var(--pokemon14front);
+  }
+  
+  .card.pokemon15 {
+    --color1: var(--pokemon15-1);
+    --color2: var(--pokemon15-2);
+    --front: var(--pokemon15front);
+  }
+  
+  .card.pokemon16 {
+    --color1: var(--pokemon16-1);
+    --color2: var(--pokemon16-2);
+    --front: var(--pokemon16front);
+  }
+  
+  .card.pokemon17 {
+    --color1: var(--pokemon17-1);
+    --color2: var(--pokemon17-2);
+    --front: var(--pokemon17front);
+  }
+  
+  .card.pokemon18 {
+    --color1: var(--pokemon18-1);
+    --color2: var(--pokemon18-2);
+    --front: var(--pokemon18front);
+  }
+  
+  .card.pokemon19 {
+    --color1: var(--pokemon19-1);
+    --color2: var(--pokemon19-2);
+    --front: var(--pokemon19front);
+  }
+  
+  .card.pokemon20 {
+    --color1: var(--pokemon20-1);
+    --color2: var(--pokemon20-2);
+    --front: var(--pokemon20front);
+  }
+  
+  .card.pokemon21 {
+    --color1: var(--pokemon21-1);
+    --color2: var(--pokemon21-2);
+    --front: var(--pokemon21front);
+  }
+  
+  .card.pokemon22 {
+    --color1: var(--pokemon22-1);
+    --color2: var(--pokemon22-2);
+    --front: var(--pokemon22front);
+  }
+  
+  .card.pokemon23 {
+    --color1: var(--pokemon23-1);
+    --color2: var(--pokemon23-2);
+    --front: var(--pokemon23front);
+  }
+  
+  .card.pokemon24 {
+    --color1: var(--pokemon24-1);
+    --color2: var(--pokemon24-2);
+    --front: var(--pokemon24front);
+  }
+  
+  .card.pokemon25 {
+    --color1: var(--pokemon25-1);
+    --color2: var(--pokemon25-2);
+    --front: var(--pokemon25front);
+  }
+  
+  .card.pokemon26 {
+    --color1: var(--pokemon26-1);
+    --color2: var(--pokemon26-2);
+    --front: var(--pokemon26front);
+  }
+  
+  .card.pokemon27 {
+    --color1: var(--pokemon27-1);
+    --color2: var(--pokemon27-2);
+    --front: var(--pokemon27front);
+  }
+  
+  .card.pokemon28 {
+    --color1: var(--pokemon28-1);
+    --color2: var(--pokemon28-2);
+    --front: var(--pokemon28front);
+  }
+  
+  .card.pokemon29 {
+    --color1: var(--pokemon29-1);
+    --color2: var(--pokemon29-2);
+    --front: var(--pokemon29front);
+  }
+  
+  .card.pokemon30 {
+    --color1: var(--pokemon30-1);
+    --color2: var(--pokemon30-2);
+    --front: var(--pokemon30front);
+  }
+  
+  .card.pokemon31 {
+    --color1: var(--pokemon31-1);
+    --color2: var(--pokemon31-2);
+    --front: var(--pokemon31front);
+  }
+  
+  .card.pokemon32 {
+    --color1: var(--pokemon32-1);
+    --color2: var(--pokemon32-2);
+    --front: var(--pokemon32front);
+  }
+  
+  .card.pokemon33 {
+    --color1: var(--pokemon33-1);
+    --color2: var(--pokemon33-2);
+    --front: var(--pokemon33front);
+  }
+  
+  .card.pokemon34 {
+    --color1: var(--pokemon34-1);
+    --color2: var(--pokemon34-2);
+    --front: var(--pokemon34front);
+  }
+  
+  .card.pokemon35 {
+    --color1: var(--pokemon35-1);
+    --color2: var(--pokemon35-2);
+    --front: var(--pokemon35front);
+  
+    position: relative;
+    background: var(--front) center/cover no-repeat;
+    border: 4px solid transparent;
+    border-radius: 16px;
+    z-index: 20;
+    overflow: hidden;
+  
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  /* Effetto bordo arcobaleno animato */
+  .card.pokemon35::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    z-index: -1;
+    background: conic-gradient(
+      red, orange, yellow, lime, cyan, blue, magenta, red
+    );
+    border-radius: 20px;
+    animation: rotate-border 5s linear infinite;
+  }
+  
+  @keyframes rotate-border {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Effetto di "galleggiamento" */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  /* Stelle scintillanti leggere sopra la carta */
+  .card.pokemon35::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(white 1px, transparent 1px);
+    background-size: 25px 25px;
+    opacity: 0.2;
+    animation: twinkle 3s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  @keyframes twinkle {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(20px, 20px); }
+  }
+  
+  /* Icona stella animata */
+  .card.pokemon35 .special-icon {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 1.8rem;
+    animation: pulse 2s ease-in-out infinite;
+    z-index: 2;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.5); opacity: 1; }
+  }
+  
+  
+  .card.pokemon36 {
+    --color1: var(--pokemon36-1);
+    --color2: var(--pokemon36-2);
+    --front: var(--pokemon36front);
+  }
+  
+  .card.pokemon37 {
+    --color1: var(--pokemon37-1);
+    --color2: var(--pokemon37-2);
+    --front: var(--pokemon37front);
+  }
+  
+  .card.pokemon38 {
+    --color1: var(--pokemon38-1);
+    --color2: var(--pokemon38-2);
+    --front: var(--pokemon38front);
+  }
+  
+  .card.pokemon39 {
+    --color1: var(--pokemon39-1);
+    --color2: var(--pokemon39-2);
+    --front: var(--pokemon39front);
+  }
+  
+  .card.pokemon40 {
+    --color1: var(--pokemon40-1);
+    --color2: var(--pokemon40-2);
+    --front: var(--pokemon40front);
+  }
+  
+  .card.pokemon41 {
+    --color1: var(--pokemon41-1);
+    --color2: var(--pokemon41-2);
+    --front: var(--pokemon41front);
+  }
+  
+  .card.pokemon42 {
+    --color1: var(--pokemon42-1);
+    --color2: var(--pokemon42-2);
+    --front: var(--pokemon42front);
+  }
+  
+  .card.pokemon43 {
+    --color1: var(--pokemon43-1);
+    --color2: var(--pokemon43-2);
+    --front: var(--pokemon43front);
+  }
+  
+  .card.pokemon44 {
+    --color1: var(--pokemon44-1);
+    --color2: var(--pokemon44-2);
+    --front: var(--pokemon44front);
+  
+    background: var(--front) center/cover no-repeat;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    z-index: 5;
+  }
+  
+  /* Fiamme scure animate attorno */
+  .card.pokemon44::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0,0,0,0.3) 30%, transparent 80%);
+    animation: darkFlames 6s linear infinite;
+    pointer-events: none;
+    mix-blend-mode: darken;
+    z-index: 1;
+    opacity: 0.5;
+  }
+  
+  /* Pulsazione interna oscura */
+  .card.pokemon44 {
+    --color1: var(--pokemon44-1);
+    --color2: var(--pokemon44-2);
+    --front: var(--pokemon44front);
+  
+    background: var(--front) center/cover no-repeat;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    z-index: 5;
+  
+    box-shadow: 0 0 40px rgba(100, 0, 200, 0.5);
+    animation: darkPulse 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Contorno incandescente scuro */
+  .card.pokemon44::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border-radius: 20px;
+    background: conic-gradient(
+      from 0deg,
+      rgba(0, 0, 0, 0.432),
+      rgba(119, 0, 255, 0.803),
+      rgba(0, 0, 0, 0.495)
+    );
+    z-index: -1;
+    filter: blur(20px);
+    animation: auraGlow 5s linear infinite;
+  }
+  
+  @keyframes auraGlow {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(90deg); }
+  }
+  
+  /* Pulsazione soft viola/oscuro */
+  @keyframes darkPulse {
+    0%, 100% { box-shadow: 0 0 30px rgba(80, 0, 150, 0.547); }
+    50% { box-shadow: 0 0 50px rgba(180, 0, 255, 0.7); }
+  }
+  
+  /* Simbolo arcano fluttuante (tipo runa o teschio) */
+  .card.pokemon44 .dark-symbol {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 10px purple;
+    animation: floatSymbol 4s ease-in-out infinite;
+    z-index: 10;
+    pointer-events: none;
+  }
+  
+  @keyframes floatSymbol {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  
+  
+  
+  .card.pokemon45 {
+    --color1: var(--pokemon45-1);
+    --color2: var(--pokemon45-2);
+    --front: var(--pokemon45front);
+  }
+  
+  .card.pokemon46 {
+    --color1: var(--pokemon46-1);
+    --color2: var(--pokemon46-2);
+    --front: var(--pokemon46front);
+  }
+  
+  .card.pokemon47 {
+    --color1: var(--pokemon47-1);
+    --color2: var(--pokemon47-2);
+    --front: var(--pokemon47front);
+  }
+  
+  .card.pokemon48 {
+    --color1: var(--pokemon48-1);
+    --color2: var(--pokemon48-2);
+    --front: var(--pokemon48front);
+  }
+  
+  .card.pokemon49 {
+    --color1: var(--pokemon49-1);
+    --color2: var(--pokemon49-2);
+    --front: var(--pokemon49front);
+  }
+  
+  .card.pokemon50 {
+    --color1: var(--pokemon50-1);
+    --color2: var(--pokemon50-2);
+    --front: var(--pokemon50front);
+  }
+  
+  .card.pokemon51 {
+    --color1: var(--pokemon51-1);
+    --color2: var(--pokemon51-2);
+    --front: var(--pokemon51front);
+  }
+  
+  .card.pokemon52 {
+    --color1: var(--pokemon52-1);
+    --color2: var(--pokemon52-2);
+    --front: var(--pokemon52front);
+  }
+  
+  .card.pokemon53 {
+    --color1: var(--pokemon53-1);
+    --color2: var(--pokemon53-2);
+    --front: var(--pokemon53front);
+  }
+  
+  .card.pokemon54 {
+    --color1: var(--pokemon54-1);
+    --color2: var(--pokemon54-2);
+    --front: var(--pokemon54front);
+  }
+  
+  .card.pokemon55 {
+    --color1: var(--pokemon55-1);
+    --color2: var(--pokemon55-2);
+    --front: var(--pokemon55front);
+  }
+  
+  .card.pokemon56 {
+    --color1: var(--pokemon56-1);
+    --color2: var(--pokemon56-2);
+    --front: var(--pokemon56front);
+  }
+  
+  .card.pokemon57 {
+    --color1: var(--pokemon57-1);
+    --color2: var(--pokemon57-2);
+    --front: var(--pokemon57front);
+  }
+  
+  .card.pokemon58 {
+    --color1: var(--pokemon58-1);
+    --color2: var(--pokemon58-2);
+    --front: var(--pokemon58front);
+  }
+  
+  .card.pokemon59 {
+    --color1: var(--pokemon59-1);
+    --color2: var(--pokemon59-2);
+    --front: var(--pokemon59front);
+  }
+  
+  .card.pokemon60 {
+    --color1: var(--pokemon60-1);
+    --color2: var(--pokemon60-2);
+    --front: var(--pokemon60front);
+  }
+  
+  .card.pokemon61 {
+    --color1: var(--pokemon61-1);
+    --color2: var(--pokemon61-2);
+    --front: var(--pokemon61front);
+  }
+  
+  .card.pokemon62 {
+    --color1: var(--pokemon62-1);
+    --color2: var(--pokemon62-2);
+    --front: var(--pokemon62front);
+  }
+  
+  .card.pokemon63 {
+    --color1: var(--pokemon63-1);
+    --color2: var(--pokemon63-2);
+    --front: var(--pokemon63front);
+  }
+  
+  .card.pokemon64 {
+    --color1: var(--pokemon64-1);
+    --color2: var(--pokemon64-2);
+    --front: var(--pokemon64front);
+  }
+  
+  .card.pokemon65 {
+    --color1: var(--pokemon65-1);
+    --color2: var(--pokemon65-2);
+    --front: var(--pokemon65front);
+  }
+  
+  .card:before,
+  .card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    opacity: .5;
+    mix-blend-mode: color-dodge;
+    transition: all .33s ease;
+  }
+  
+  .card:before {
+    background-position: 50% 50%;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+      115deg,
+      transparent 0%,
+      var(--color1) 25%,
+      transparent 47%,
+      transparent 53%,
+      var(--color2) 75%,
+      transparent 100%
+    );
+    opacity: .5;
+    filter: brightness(.5) contrast(1);
+    z-index: 1;
+  }
+  
+  .card:after {
+    opacity: 1;
+    background-image: url("https://assets.codepen.io/13471/sparkles.gif"), 
+      url(https://assets.codepen.io/13471/holo.png), 
+      linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
+    background-position: 50% 50%;
+    background-size: 160%;
+    background-blend-mode: overlay;
+    z-index: 2;
+    filter: brightness(1) contrast(1);
+    transition: all .33s ease;
+    mix-blend-mode: color-dodge;
+    opacity: .75;
+  }
+  
+  .card.active:after,
+  .card:hover:after {
+    filter: brightness(1) contrast(1);;
+    opacity: 1;
+  }
+  
+  .card.active,
+  .card:hover {
+    animation: none;
+    transition: box-shadow 0.1s ease-out;
+  }
+  
+  .card.active:before,
+  .card:hover:before {
+    animation: none;
+    background-image: linear-gradient(
+      110deg,
+      transparent 25%,
+      var(--color1) 48%,
+      var(--color2) 52%,
+      transparent 75%
+    );
+    background-position: 50% 50%;
+    background-size: 250% 250%;
+    opacity: .88;
+    filter: brightness(.66) contrast(1.33);
+    transition: none;
+  }
+  
+  .card.active:before,
+  .card:hover:before,
+  .card.active:after,
+  .card:hover:after {
+    animation: none;
+    transition: none;
+  }
+  
+  .card.animated {
+    transition: none;
+    animation: holoCard 12s ease 0s 1;
+    &:before { 
+      transition: none;
+      animation: holoGradient 12s ease 0s 1;
+    }
+    &:after {
+      transition: none;
+      animation: holoSparkle 12s ease 0s 1;
+    }
+  }
+  
+  
+  
+  
+  @keyframes holoSparkle {
+    0%, 100% {
+      opacity: .75; background-position: 50% 50%; filter: brightness(1.2) contrast(1.25);
+    }
+    5%, 8% {
+      opacity: 1; background-position: 40% 40%; filter: brightness(.8) contrast(1.2);
+    }
+    13%, 16% {
+      opacity: .5; background-position: 50% 50%; filter: brightness(1.2) contrast(.8);
+    }
+    35%, 38% {
+      opacity: 1; background-position: 60% 60%; filter: brightness(1) contrast(1);
+    }
+    55% {
+      opacity: .33; background-position: 45% 45%; filter: brightness(1.2) contrast(1.25);
+    }
+  }
+  
+  @keyframes holoGradient {
+    0%, 100% {
+      opacity: 0.5;
+      background-position: 50% 50%;
+      filter: brightness(.5) contrast(1);
+    }
+    5%, 9% {
+      background-position: 100% 100%;
+      opacity: 1;
+      filter: brightness(.75) contrast(1.25);
+    }
+    13%, 17% {
+      background-position: 0% 0%;
+      opacity: .88;
+    }
+    35%, 39% {
+      background-position: 100% 100%;
+      opacity: 1;
+      filter: brightness(.5) contrast(1);
+    }
+    55% {
+      background-position: 0% 0%;
+      opacity: 1;
+      filter: brightness(.75) contrast(1.25);
+    }
+  }
+  
+  @keyframes holoCard {
+    0%, 100% {
+      transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+    }
+    5%, 8% {
+      transform: rotateZ(0deg) rotateX(6deg) rotateY(-20deg);
+    }
+    13%, 16% {
+      transform: rotateZ(0deg) rotateX(-9deg) rotateY(32deg);
+    }
+    35%, 38% {
+      transform: rotateZ(3deg) rotateX(12deg) rotateY(20deg);
+    }
+    55% {
+      transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
+    }
+  }
+  
+  
+  
+  .card.eevee:hover {
+    box-shadow: 
+      0 0 30px -5px white,
+      0 0 10px -2px white,
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  }
+  .card.eevee:hover:before,
+  .card.eevee.active:before {
+    background-image: linear-gradient(
+      115deg,
+      transparent 20%,
+      var(--color1) 36%,
+      var(--color2) 43%,
+      var(--color3) 50%,
+      var(--color4) 57%,
+      var(--color5) 64%,
+      transparent 80%
+    );
+  }
+  
+  
+  
+  .cards .three-d-wrapper {
+    perspective: 750px;
+    isolation: isolate;
+    transform: translate3d(0.1px, 0.1px, 0.1px )
+  }
+  .demo .card {
+    background-image: var(--back);
+    font-size: 2vh
+  }
+  .demo .card > span {
+    position: relative;
+    top: 45%;
+  }
+  
+  .demo .card:nth-of-type(1),
+  .demo .card:nth-of-type(2),
+  .demo .card:nth-of-type(3) {
+    width: 20vh;
+    height: 27.5vh;
+    box-shadow: inset 0 0 0 1px rgba(white,0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+    animation: none;
+  }
+  
+  .demo .card:nth-of-type(1),
+  .demo .card:nth-of-type(2),
+  .demo .card:nth-of-type(3) {
+    &:before, &:after {
+      animation: none;
+       opacity: 1;
+    } 
+  }
+  .demo .card:nth-of-type(1) {
+    &:before, &:after { display: none; }
+  }
+  .demo .card:nth-of-type(2) {
+    background: none;
+    &:before { display: none; }
+  }
+  .demo .card:nth-of-type(3) {
+    background: none;
+    &:after { display: none; }
+  }
+  
+  .operator {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 6vh;
+  }
+  
+  
+  
+  
+  
+  
+  html, body {
+    height: 100%;
+    background-color: #333844;
+    padding: 0;
+    z-index: 1;
+    transform: translate3d(0,0,0.1px);
+  }
+  body {
+    color: white;
+    background-color: #333844;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+  }
+  h1 {
+    display: block;
+    margin: 30px 0;
+  }
+  p {
+    margin-top: 5px;
+    font-weight: 200;
+  }
+  #app {
+    position: relative;
+  }
+  
+  .demo,
+  .cards { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+  }
+  .demo {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .cards {
+      flex-direction: row;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .cards .card {
+    &:nth-child(2) {
+      &, &:before, &:after {
+        animation-delay: 0.25s;
+      }
+    }
+    &:nth-child(3) {
+      &, &:before, &:after {
+        animation-delay: 0.5s;
+      }
+    }
+    &:nth-child(4) {
+      &, &:before, &:after {
+        animation-delay: 0.75s;
+      }
+    }
+  }
+  
+  
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1em;
+    background: rgba(0,0,0,0.3);
+    margin-top: 0;
+    animation: rubberBand 1.5s linear 3s 1;
+  }
+  .promo {
+    margin-top: 50px;
+  }
+  .promo img {
+    margin-top: 10px;
+    max-width: 80%;
+  }
+  p a {
+    color: cyan;
+  }
+  
+  html,body,main {
+    min-height: 100%;
+  }
+  
+  
+  
+  @keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .card.pokemon53,
+.card.pokemon54,
+.card.pokemon55,
+.card.pokemon56 {
+  background: var(--front) center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+  border-radius: 21px;
+  z-index: 10;
+  box-shadow: 0 0 1.618rem rgba(255, 245, 200, 0.35);
+  animation: radiantPulse 6.472s ease-in-out infinite;
+  transition: transform 0.382s ease;
+}
+
+/* Aura aurea morbida */
+.card.pokemon53::before,
+.card.pokemon54::before,
+.card.pokemon55::before,
+.card.pokemon56::before {
+  content: "";
+  position: absolute;
+  top: -38.2%;
+  left: -38.2%;
+  width: 176.4%;
+  height: 176.4%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 217, 0, 0.648),
+    rgba(255, 255, 255, 0.301),
+    rgba(255, 217, 0, 0.486)
+  );
+  border-radius: 61.8%;
+  z-index: -1;
+  filter: blur(2.618rem);
+  animation: goldenSpiral 2s linear infinite;
+  opacity: 0.3;
+  mix-blend-mode: screen;
+}
+
+/* Simboli sacri fluttuanti */
+.card.pokemon53:hover,
+.card.pokemon54:hover,
+.card.pokemon55:hover,
+.card.pokemon56:hover {
+  animation: none; /* Disabilita l'animazione automatica durante l'hover */
+  transform: 
+    scale(1.05) 
+    rotateX(calc(var(--mouse-y) * 3deg)) 
+    rotateY(calc(var(--mouse-x) * 3deg))
+    translateZ(20px);
+  transition: transform 0.618s cubic-bezier(0.16, 0.73, 0.58, 1.18);
+  box-shadow: 
+    0 0 4.236rem rgba(255, 215, 0, 0.5),
+    0 0 10rem rgba(255, 255, 255, 0.4),
+    0 0 15rem rgba(255, 215, 0, 0.3);
+}
+@keyframes holyLevitation {
+    0%, 100% { transform: translateY(0) rotateZ(0); }
+    50% { transform: translateY(-1.618rem) rotateZ(0.5deg); }
+  }
+
+  .card.pokemon53:hover .sacred-symbol,
+  .card.pokemon54:hover .sacred-symbol,
+  .card.pokemon55:hover .sacred-symbol,
+  .card.pokemon56:hover .sacred-symbol {
+    animation: 
+      holyLevitation 3.82s ease-in-out infinite,
+      glowPulse 1.618s ease-in-out infinite alternate;
+    transform: scale(1.2);
+    right: 3.82rem;
+    bottom: 3.82rem;
+  }
+  .card.pokemon53::after,
+.card.pokemon54::after,
+.card.pokemon55::after,
+.card.pokemon56::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 161.8%;
+  height: 161.8%;
+  background: 
+    radial-gradient(circle, transparent 61.8%, rgba(255, 215, 0, 0.1) 100%),
+    repeating-conic-gradient(
+      from 0deg,
+      transparent 0deg 137.5deg,
+      rgba(255, 215, 0, 0.3) 137.5deg 222.5deg
+    );
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: sacredGeometry 31.8s linear infinite;
+  opacity: 0.3;
+}
+
+  
+  @keyframes sacredGeometry {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+  
+  @keyframes floatSymbol {
+    0%, 100% { 
+      transform: translateY(0) rotateZ(0deg);
+      text-shadow: 
+        0 0 0.618rem rgba(255, 215, 0, 0.5),
+        0 0 1.618rem rgba(255, 255, 255, 0.3),
+        0 0 4.236rem rgba(255, 215, 0, 0.2);
+    }
+    50% { 
+      transform: translateY(-1rem) rotateZ(2deg);
+      text-shadow: 
+        0 0 1rem rgba(255, 215, 0, 0.7),
+        0 0 2.618rem rgba(255, 255, 255, 0.5),
+        0 0 6.854rem rgba(255, 215, 0, 0.3);
+    }
+  }
+  
+  @keyframes glowPulse {
+    from { opacity: 0.8; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes goldenFloat {
+    0% {
+      transform: translateY(0) translateX(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) translateX(calc(var(--golden-ratio) * 10px));
+      opacity: 0;
+    }
+  }
+  
+  
+ 
+  
+ 
+  
